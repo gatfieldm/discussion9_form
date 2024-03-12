@@ -31,7 +31,10 @@
     /* background: #575294; */
     background-color: var(--other);
     color: var(--white);
+    border-radius: 5px;
+    border: 5px solid black;
     font-weight: bold;
+    padding: 30px;
   }
 
   #name {
@@ -60,12 +63,13 @@
     width: 100%;
     padding: 10px;
     background-color: #4CAF50;
-    color: white;
-    border: none;
+    color: black;
+    border: 5px solid black;
     border-radius: 5px;
     cursor: pointer;
   }
 
   input[type="submit"]:hover {
     background-color: #45a049;
+    border : 5px solid black;
   }
